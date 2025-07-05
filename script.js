@@ -5,13 +5,13 @@ function shortcut(s1, s2) {
 	let str2=s2[0];
 	op=str1+str2;
 	if(str1===undefined || str2===undefined){
-		console.log("''");
+return "";
 	}else {
-		console.log(op);
+		return op;
 	}
 }
 
 // Do not change the code below.
-const s1 = prompt("Enter s1:"); 
-const s2 = prompt("Enter s2:");
-alert(shortcut(s1, s2));
+// const s1 = prompt("Enter s1:"); 
+// const s2 = prompt("Enter s2:");
+// alert(shortcut(s1, s2)); 
